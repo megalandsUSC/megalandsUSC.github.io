@@ -89,13 +89,13 @@ export function Footer() {
         <div className="mx-auto max-w-6xl">
           <div className="text-center md:text-left">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-ochre">
-              Funding & Support / Financiación
+              Funding & Support
             </p>
             <p className="mt-2 text-sm leading-relaxed text-primary-foreground/90 font-medium">
               PID2024-156264NA-I00 funded by MICIU / AEI / 10.13039/501100011033 / FEDER, EU.
             </p>
-            <p className="mt-1 text-xs text-primary-foreground/60">
-              Proyecto de Generación de Conocimiento, Modalidad No Orientada (Tipo A), financiado por el Ministerio de Ciencia, Innovación y Universidades (MICIU), la Agencia Estatal de Investigación (AEI) y la Unión Europea a través del Fondo Europeo de Desarrollo Regional (FEDER) y el Plan de Recuperación, Transformación y Resiliencia (NextGenerationEU).
+            <p className="mt-1 text-xs text-primary-foreground/60 leading-relaxed max-w-4xl">
+              Knowledge-Generation Project, Non-Oriented Modality (Type A), funded by the Ministry of Science, Innovation and Universities (MICIU), the State Research Agency (AEI), and the European Union through the European Regional Development Fund (FEDER) and the Recovery, Transformation and Resilience Plan (NextGenerationEU).
             </p>
           </div>
 
