@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Citizen Science | DISCOVER Project</title>
+  <meta name="description" content="Citizen science in DISCOVER: participate on Zooniverse to detect burial mounds and train AI models for Galician archaeology.">
+  <meta name="keywords" content="Citizen Science, Zooniverse, crowdsourcing, LiDAR, archaeology, Galicia, DISCOVER, AI">
+  <meta name="author" content="Miguel Carrero-Pazos">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Citizen Science | DISCOVER Project">
+  <meta property="og:description" content="Help discover hidden burial mounds in Galicia using LiDAR images on Zooniverse.">
+  <meta property="og:url" content="https://megalandsusc.github.io/discover/3-CitizenScience.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/discover/Logo-Def.jpg">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Crimson+Pro:wght@400;600;700&display=swap">
+  <!-- Bootstrap + site styles -->
+  <link rel="stylesheet" href="/assets/lib/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/discover.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="alternate icon" href="/favicon.ico" />
+</head>
+
+<body class="d-flex flex-column h-100 discover-site">
+  <header>
+    <!-- DISCOVER navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark discover-navbar pb-lg-0">
+      <div class="container">
+        <a class="navbar-brand discover-brand" href="/discover/">
+          <img src="/images/discover/discover_avatar.png" alt="DISCOVER logo" class="discover-nav-logo" loading="eager">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#discoverNav"
+          aria-controls="discoverNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="discoverNav">
+          <ul class="navbar-nav discover-nav-list justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link p-3 h-100" href="/discover/1-Project.html">The Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-3 h-100" href="/discover/2-Methodology.html">Methodology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active p-3 h-100" href="/discover/3-CitizenScience.html">Citizen Science</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-3 h-100 discover-back-link" href="/" title="Back to MegaLands">
+                ← MegaLands
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
+    <div class="container my-4">
+      <div class="page-title-block mb-4">
+        <h1>Citizen Science</h1>
+      </div>
+
+      <p class="lead">
+        DISCOVER includes a <strong>citizen science</strong> component hosted on <a href="https://www.zooniverse.org/projects/miguelcarrero/discover-project" target="_blank" rel="noopener noreferrer">Zooniverse</a>, the world's largest people-powered research platform, with over 2 million registered volunteers.
+      </p>
+
+      <div class="discover-zooniverse-block text-center p-4 p-md-5 my-4 rounded">
+        <h2 class="h3 mb-3">Help us discover hidden burial mounds!</h2>
+        <p class="lead mb-4 mx-auto" style="max-width: 720px;">
+          Anyone &mdash; with no prior knowledge of archaeology &mdash; can contribute to the project by examining LiDAR images of the Galician landscape and flagging shapes that might correspond to prehistoric burial mounds.
+        </p>
+        <a href="https://www.zooniverse.org/projects/miguelcarrero/discover-project" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg discover-cta-btn" style="font-size:1.05rem; padding: 0.75rem 2rem;">
+          🔭 Go to DISCOVER on Zooniverse
+        </a>
+      </div>
+
+      <p class="discover-section-title">How it works</p>
+
+      <div class="discover-steps">
+        <div class="discover-step">
+          <div class="discover-step__num">1</div>
+          <div class="discover-step__title">Free registration</div>
+          <p>Create a free Zooniverse account or participate anonymously</p>
+        </div>
+        <div class="discover-step">
+          <div class="discover-step__num">2</div>
+          <div class="discover-step__title">Examine LiDAR images</div>
+          <p>The tool presents analytical images derived from LiDAR data of the Galician landscape</p>
+        </div>
+        <div class="discover-step">
+          <div class="discover-step__num">3</div>
+          <div class="discover-step__title">Search and classify</div>
+          <p>Identify rounded raised shapes (burial mounds) or central depressions (looting pits). Not all images contain archaeological features</p>
+        </div>
+        <div class="discover-step">
+          <div class="discover-step__num">4</div>
+          <div class="discover-step__title">Feed the AI</div>
+          <p>Your classifications are used to retrain the automatic detection algorithm, improving its accuracy</p>
+        </div>
+      </div>
+
+      <p class="discover-section-title">What to look for</p>
+
+      <p>Galician megalithic monuments appear in two main forms:</p>
+
+      <p><strong>Burial mounds (mámoas/túmulos):</strong> Small human-made elevations of the ground, typically 1–2 metres high, built as funerary monuments. Some show a central depression or looting pit caused by illegal excavations in the past.</p>
+
+      <p><strong>Dolmens:</strong> Some monuments have lost their earth mass and only the stone chamber survives. They vary in type: simple polygonal chambers, short-corridor dolmens, long-corridor dolmens, or small rectangular cists.</p>
+
+      <div class="alert alert-info my-4" role="alert">
+        <strong>Remember:</strong> not all images you review will contain archaeological sites. Part of the task is precisely to distinguish natural landforms from human-made structures.
+      </div>
+
+      <p class="discover-section-title">Why does your participation matter?</p>
+
+      <p>The Galician landscape is vast. Applying the AI algorithm and validating its results through expert-only review would take years. With citizen participation, we can:</p>
+
+      <ul>
+        <li><strong>Scale validation</strong> to large areas of territory in a short time</li>
+        <li><strong>Improve model training</strong> with thousands of human-generated labels</li>
+        <li><strong>Detect errors</strong> in existing heritage catalogues</li>
+        <li><strong>Raise public awareness</strong> of the richness of Galicia's megalithic heritage</li>
+      </ul>
+
+      <blockquote class="blockquote my-4 p-3 bg-light border-start border-4 border-primary rounded" style="background-color: var(--disc-card-bg, #f8fafc) !important;">
+        <p class="mb-2 fst-italic">&ldquo;Many prehistoric monuments are still hidden in today's landscapes. With your help, we can reveal them and better understand how people shaped the land thousands of years ago.&rdquo;</p>
+        <footer class="blockquote-footer mt-1"><cite title="Miguel Carrero-Pazos">Miguel Carrero-Pazos</cite></footer>
+      </blockquote>
+
+      <p class="discover-section-title">Background and inspiration</p>
+
+      <p>
+        DISCOVER builds on previous experiences in European archaeology, in particular the <a href="https://www.universiteitleiden.nl/en/research/research-projects/archaeology/heritage-quest" target="_blank" rel="noopener noreferrer">Heritage Quest</a> project by Leiden University (Netherlands), which demonstrated the effectiveness of citizen science for LiDAR-based archaeological feature detection.
+      </p>
+
+    </div>
+  </main>
+
+  <footer class="mt-auto py-4 bg-dark text-white border-top border-secondary">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md mb-3 mb-md-0">
+          <span class="fw-bold fs-6">DISCOVER Project</span>
+          <span class="badge bg-secondary ms-2">2025–2026</span>
+          <br>
+          <small class="text-white-50">
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="discover-footer-link">cc by-sa</a>
+            2026 <a href="https://orcid.org/0000-0001-9203-9954" class="discover-footer-link" target="_blank" rel="noopener noreferrer">Miguel Carrero-Pazos</a>
+          </small>
+          <br>
+          <small class="discover-footer-muted">Financiado por la Universidade de Santiago de Compostela — <strong style="color:rgba(255,255,255,0.6)">Fondos Impulso USC</strong>. CISPAC, 2025–2026.</small>
+        </div>
+        <div class="col-md text-end">
+          <a href="https://www.zooniverse.org/projects/miguelcarrero/discover-project" target="_blank" rel="noopener noreferrer" class="btn btn-sm discover-zooniverse-btn mb-2">
+            🔭 Participate on Zooniverse
+          </a>
+          <br>
+          <small class="discover-footer-muted">
+            <a href="/" class="discover-footer-link">← MegaLands Project</a>
+          </small>
+        </div>
+      </div>
+      <!-- Funding / partner strip -->
+      <div class="discover-partner-strip">
+        <div class="discover-funding-row">
+          <img src="/images/discover/USC_logo.png" alt="Universidade de Santiago de Compostela" class="discover-usc-logo" loading="lazy">
+          <div class="discover-funding-text">
+            <span class="discover-funding-label">Funded by</span>
+            <span class="discover-funding-name">Universidade de Santiago de Compostela &mdash; Fondos Impulso USC</span>
+          </div>
+        </div>
+        <div class="discover-partners-row">
+          <span class="discover-partner-label">In collaboration with:</span>
+          <span class="discover-partner-names">CISPAC &middot; CITIUS &middot; CITMAGA &middot; CESGA</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
