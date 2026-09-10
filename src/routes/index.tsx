@@ -85,31 +85,49 @@ function Index() {
           height={1280}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-stone-deep/90 via-stone-deep/40 to-stone-deep/20" />
-        <div className="relative mx-auto flex max-w-6xl flex-col justify-end px-6 pb-20 pt-40 md:pb-28 md:pt-56">
-          <p className="animate-rise text-xs font-semibold uppercase tracking-[0.3em] text-primary-foreground/80">
-            Knowledge-Generation Project · PID2024-156264NA-I00 (AEI / MICIU / FEDER, EU)
-          </p>
-          <h1 className="animate-rise-slow mt-5 max-w-4xl font-display text-5xl leading-[1.05] text-primary-foreground md:text-7xl">
-            Megalithic Landscapes of Northwestern Iberia
-          </h1>
-          <p className="animate-rise-slow mt-6 max-w-2xl text-lg leading-relaxed text-primary-foreground/85">
-            Exploring human-environmental drivers of Neolithic societies
-            (5th–2nd millennium BCE) through innovative, multidisciplinary
-            research.
-          </p>
-          <div className="animate-rise-slow mt-10 flex flex-wrap gap-4">
-            <Link
-              to="/methodology"
-              className="inline-flex items-center gap-2 rounded-full bg-primary-foreground px-6 py-3 text-sm font-semibold text-stone-deep transition-transform hover:scale-[1.03]"
-            >
-              Explore the project <ArrowRight size={16} />
-            </Link>
-            <Link
-              to="/team"
-              className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/40 px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-foreground/10"
-            >
-              Meet the team
-            </Link>
+        <div className="relative mx-auto flex max-w-6xl flex-col justify-end px-6 pb-20 pt-36 md:pb-28 md:pt-48">
+          <div className="flex flex-col-reverse lg:flex-row lg:items-end lg:justify-between gap-8">
+            <div className="max-w-3xl">
+              <p className="animate-rise text-xs font-semibold uppercase tracking-[0.3em] text-primary-foreground/80">
+                Knowledge-Generation Project · PID2024-156264NA-I00 (AEI / MICIU / FEDER, EU)
+              </p>
+              <h1 className="animate-rise-slow mt-5 font-display text-5xl leading-[1.05] text-primary-foreground md:text-7xl">
+                Megalithic Landscapes of Northwestern Iberia
+              </h1>
+              <p className="animate-rise-slow mt-6 max-w-2xl text-lg leading-relaxed text-primary-foreground/85">
+                Exploring human-environmental drivers of Neolithic societies
+                (5th–2nd millennium BCE) through innovative, multidisciplinary
+                research.
+              </p>
+              <div className="animate-rise-slow mt-10 flex flex-wrap gap-4">
+                <Link
+                  to="/methodology"
+                  className="inline-flex items-center gap-2 rounded-full bg-primary-foreground px-6 py-3 text-sm font-semibold text-stone-deep transition-transform hover:scale-[1.03]"
+                >
+                  Explore the project <ArrowRight size={16} />
+                </Link>
+                <Link
+                  to="/team"
+                  className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/40 px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-foreground/10"
+                >
+                  Meet the team
+                </Link>
+              </div>
+            </div>
+
+            {/* Logo "globo" flotante */}
+            <div className="animate-rise shrink-0 self-start lg:self-center">
+              <div className="relative group">
+                <div className="absolute -inset-1.5 rounded-full bg-ochre/35 blur-lg opacity-80 group-hover:opacity-100 transition-opacity" />
+                <div className="relative h-28 w-28 sm:h-36 sm:w-36 lg:h-44 lg:w-44 rounded-full overflow-hidden border-4 border-white/95 bg-white p-2 sm:p-2.5 shadow-2xl backdrop-blur-xs transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src="/images/MegaLands_Logo.jpeg"
+                    alt="MegaLands Project Logo"
+                    className="h-full w-full rounded-full object-contain"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

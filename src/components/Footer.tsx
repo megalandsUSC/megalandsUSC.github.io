@@ -6,9 +6,21 @@ export function Footer() {
       {/* Top Grid */}
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3">
         <div>
-          <p className="font-display text-2xl">
-            Mega<span className="text-ochre">Lands</span>
-          </p>
+          <div className="flex items-center gap-3.5">
+            <div className="h-12 w-12 shrink-0 overflow-hidden rounded-full border-2 border-white/80 bg-white p-1 shadow-sm">
+              <img
+                src="/images/MegaLands_Logo.jpeg"
+                alt="MegaLands Project Logo"
+                className="h-full w-full rounded-full object-contain"
+              />
+            </div>
+            <div>
+              <p className="font-display text-2xl leading-none">
+                Mega<span className="text-ochre">Lands</span>
+              </p>
+              <p className="text-[11px] font-semibold uppercase tracking-widest text-ochre mt-1">Research Project</p>
+            </div>
+          </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-primary-foreground/75">
             Megalithic Landscapes: exploring human-environmental drivers of
             Neolithic societies in Northwestern Iberia (5th–2nd millennium BCE).
@@ -171,6 +183,21 @@ export function Footer() {
 
           {/* Institutional Logos Bar */}
           <div className="mt-8 flex flex-wrap items-center justify-center md:justify-start gap-5 pt-2">
+            <div
+              className="inline-flex items-center gap-3 rounded-xl bg-white px-4 py-2.5 shadow-md"
+              title="MegaLands Research Project"
+            >
+              <img
+                src="/images/MegaLands_Logo.jpeg"
+                alt="MegaLands Project Logo"
+                className="h-12 w-12 md:h-14 md:w-14 rounded-full object-contain"
+                loading="lazy"
+              />
+              <span className="font-display text-lg md:text-xl font-semibold text-stone-deep tracking-tight">
+                Mega<span className="text-ochre">Lands</span>
+              </span>
+            </div>
+
             <a
               href="https://www.aei.gob.es/"
               target="_blank"

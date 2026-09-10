@@ -21,8 +21,15 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <Link to="/" className="font-display text-2xl tracking-tight text-foreground">
-          Mega<span className="text-ochre">Lands</span>
+        <Link to="/" className="group flex items-center gap-2.5 font-display text-2xl tracking-tight text-foreground">
+          <img
+            src="/images/MegaLands_Logo.jpeg"
+            alt="MegaLands Logo"
+            className="h-8 w-8 rounded-full border border-border/80 bg-white object-contain p-0.5 shadow-xs transition-transform duration-200 group-hover:scale-105"
+          />
+          <span>
+            Mega<span className="text-ochre">Lands</span>
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
