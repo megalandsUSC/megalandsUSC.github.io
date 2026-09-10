@@ -100,18 +100,18 @@ export function Footer() {
           </div>
 
           {/* Institutional Logos Bar */}
-          <div className="mt-6 flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2">
+          <div className="mt-8 flex flex-wrap items-center justify-center md:justify-start gap-5 pt-2">
             <a
               href="https://www.aei.gob.es/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center rounded-xl bg-white p-2.5 shadow-sm transition-all hover:opacity-95 hover:shadow-md"
+              className="inline-flex items-center rounded-xl bg-white p-3 shadow-md transition-all hover:opacity-95 hover:shadow-lg"
               title="Agencia Estatal de Investigación (AEI) - Ministerio de Ciencia, Innovación y Universidades"
             >
               <img
-                src="/images/MICIU+NextG+PRTR+AEI-GE.jpg"
+                src="/images/MICIU_NextG_PRTR_AEI_GE.jpg"
                 alt="Funded by MICIU / AEI / NextGenerationEU / PRTR / FEDER, EU"
-                className="h-12 md:h-14 w-auto object-contain"
+                className="h-14 md:h-16 lg:h-20 w-auto object-contain"
                 loading="lazy"
               />
             </a>
@@ -120,13 +120,13 @@ export function Footer() {
               href="https://www.usc.gal/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center rounded-xl bg-white px-4 py-2.5 shadow-sm transition-all hover:opacity-95 hover:shadow-md"
+              className="inline-flex items-center rounded-xl bg-white px-5 py-3 shadow-md transition-all hover:opacity-95 hover:shadow-lg"
               title="Universidade de Santiago de Compostela"
             >
               <img
                 src="/images/USC_logo.png"
                 alt="Universidade de Santiago de Compostela"
-                className="h-12 md:h-14 w-auto object-contain"
+                className="h-14 md:h-16 lg:h-20 w-auto object-contain"
                 loading="lazy"
               />
             </a>
