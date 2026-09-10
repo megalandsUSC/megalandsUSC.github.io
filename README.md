@@ -1,11 +1,24 @@
-### MEGALITHIC LANDSCAPES: EXPLORING HUMANENVIRONMENTAL DRIVERS OF NEOLITHIC SOCIETIES IN NORTHWESTERN IBERIA (5TH–2ND MILLENNIUM BCE) (MegaLands)
+# MegaStyle Makeover
 
-#### Miguel Carrero Pazos (USC-CISPAC) & Noemí Silva Sánchez (USC-CRETUS)
+checkea esta web C:\Users\migue\Desktop\megalands-main y dale un estilo más moderno!
 
-> The MegaLands Project webpage
+This project was built with [Lovable](https://lovable.dev).
 
-<https://megalandsUSC.github.io/>
+## Build with Lovable
 
-#### Credits
-- PID2024-156264NA-I00 funded by MICIU / AEI / 10.13039/501100011033 / FEDER, EU.
-- Website created from the “workshop-template-b” template by evanwill, built using Jekyll on GitHub Pages.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/9e54b005-ec49-47a6-af65-2b50daf81fc1).
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
