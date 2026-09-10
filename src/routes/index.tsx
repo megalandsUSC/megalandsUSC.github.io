@@ -3,7 +3,6 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { PageShell } from "@/components/PageShell";
 import { Collapsible } from "@/components/Collapsible";
-import hero from "@/assets/hero.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -79,8 +78,8 @@ function Index() {
       {/* Hero — cover with video (upload your video and it will replace the image) */}
       <section className="relative overflow-hidden">
         <img
-          src={hero}
-          alt="Megalithic dolmen in a misty Galician landscape at dawn"
+          src="/images/Cabaleiros_dolmen_portada.jpeg"
+          alt="Dolmen de Cabaleiros - MegaLands portada"
           className="absolute inset-0 h-full w-full object-cover"
           width={1920}
           height={1280}
