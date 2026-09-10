@@ -1,8 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell, PageHeader } from "@/components/PageShell";
 import { Collapsible } from "@/components/Collapsible";
-import cabaleirosAsset from "@/assets/Cabaleiros_Dolmen.jpeg.asset.json";
-import penausenAsset from "@/assets/Penausen_M1_dolmen.jpeg.asset.json";
 
 export const Route = createFileRoute("/methodology")({
   head: () => ({
@@ -45,7 +43,7 @@ const areas: Area[] = [
     name: "Costa da Morte",
     text: "Costa da Morte stands out as one of the areas in Galicia with the highest density of megalithic mounds (ca. 400) (Carrero-Pazos et al. 2019). Several tombs are among the most renowned sites of the Galician megalithic complex, such as Dombate, Parxubeira or Casa dos Mouros.",
     image: {
-      src: cabaleirosAsset.url,
+      src: "/images/Cabaleiros_Dolmen.jpeg",
       alt: "The dolmen of Cabaleiros during archaeological excavations",
       caption:
         "The dolmen of Cabaleiros (Tordoia) during archaeological excavations during september 2026. Photograph by Team members.",
@@ -59,7 +57,7 @@ const areas: Area[] = [
     name: "Penausén-Idarga Sierras",
     text: "The Necropolis of Penausén-Calabazos is composed of a total of eleven monuments (Rodríguez del Cueto, Carrero Pazos 2021).",
     image: {
-      src: penausenAsset.url,
+      src: "/images/Penausen_M1_dolmen.jpeg",
       alt: "Penausén M1 dolmen during the excavations",
       caption:
         "Pensausén M1 dolmen (Salas, Asturias) during the excavations, September 2026. Photograph by Team members.",
