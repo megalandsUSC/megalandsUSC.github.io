@@ -88,10 +88,7 @@ function Index() {
         <div className="relative mx-auto flex max-w-6xl flex-col justify-end px-6 pb-20 pt-36 md:pb-28 md:pt-48">
           <div className="flex flex-col-reverse lg:flex-row lg:items-end lg:justify-between gap-8">
             <div className="max-w-3xl">
-              <p className="animate-rise text-xs font-semibold uppercase tracking-[0.3em] text-primary-foreground/80">
-                Knowledge-Generation Project · PID2024-156264NA-I00 (AEI / MICIU / FEDER, EU)
-              </p>
-              <h1 className="animate-rise-slow mt-5 font-display text-5xl leading-[1.05] text-primary-foreground md:text-7xl">
+              <h1 className="animate-rise font-display text-5xl leading-[1.05] text-primary-foreground md:text-7xl">
                 Megalithic Landscapes of Northwestern Iberia
               </h1>
               <p className="animate-rise-slow mt-6 max-w-2xl text-lg leading-relaxed text-primary-foreground/85">
