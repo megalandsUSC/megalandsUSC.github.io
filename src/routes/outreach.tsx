@@ -50,6 +50,21 @@ function Outreach() {
               </span>
               , Bamberg, 18–21 March 2026.
             </p>
+            <div className="mt-6 overflow-hidden rounded-xl border border-border bg-black shadow-md">
+              <video
+                controls
+                playsInline
+                preload="metadata"
+                className="w-full aspect-video object-contain"
+                poster="/images/discover/discover_hero_bg.jpeg"
+              >
+                <source
+                  src="/images/discover/CarreroPazos_ProjectHighlight_DISCOVER.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </article>
         </div>
 

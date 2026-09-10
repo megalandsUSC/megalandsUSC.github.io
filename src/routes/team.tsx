@@ -116,22 +116,26 @@ function MemberCard({ m }: { m: Member }) {
       href={m.link}
       target="_blank"
       rel="noreferrer"
-      className="group overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
+      className="group flex flex-col items-center p-6 text-center rounded-2xl border border-border bg-card shadow-sm transition-all hover:-translate-y-1 hover:shadow-md hover:border-ochre/40"
     >
-      <div className="aspect-square overflow-hidden bg-secondary">
+      <div className="relative h-28 w-28 sm:h-32 sm:w-32 overflow-hidden rounded-2xl border border-border/70 bg-secondary shadow-sm transition-transform duration-500 group-hover:scale-105">
         <img
           src={m.photo}
           alt={`Photo of ${m.name}`}
           loading="lazy"
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="h-full w-full object-cover object-top"
         />
       </div>
-      <div className="p-5">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-ochre">{m.role}</p>
-        <h3 className="mt-1.5 font-display text-xl leading-snug text-foreground group-hover:underline">
+      <div className="mt-4 flex flex-col items-center w-full">
+        <span className="inline-block rounded-full bg-ochre/10 px-2.5 py-0.5 text-xs font-semibold uppercase tracking-[0.15em] text-ochre">
+          {m.role}
+        </span>
+        <h3 className="mt-2.5 font-display text-lg font-semibold leading-snug text-foreground group-hover:text-primary transition-colors">
           {m.name}
         </h3>
-        <p className="mt-1 text-sm text-muted-foreground">{m.affiliation}</p>
+        <p className="mt-1 text-xs text-muted-foreground leading-relaxed">
+          {m.affiliation}
+        </p>
       </div>
     </a>
   );
@@ -148,20 +152,20 @@ function Team() {
 
       <section className="mx-auto max-w-6xl px-6 py-16">
         <h2 className="font-display text-3xl text-foreground">Project PIs</h2>
-        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-3xl">
+        <div className="mt-8 grid gap-6 sm:grid-cols-2 max-w-2xl">
           {pis.map((m) => (
             <MemberCard key={m.name} m={m} />
           ))}
         </div>
 
-        <h2 className="mt-20 font-display text-3xl text-foreground">Research team members</h2>
+        <h2 className="mt-16 font-display text-3xl text-foreground">Research team members</h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {research.map((m) => (
             <MemberCard key={m.name} m={m} />
           ))}
         </div>
 
-        <h2 className="mt-20 font-display text-3xl text-foreground">Working team members</h2>
+        <h2 className="mt-16 font-display text-3xl text-foreground">Working team members</h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {working.map((m) => (
             <MemberCard key={m.name} m={m} />

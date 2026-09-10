@@ -61,7 +61,77 @@ export function Footer() {
             Participating Institutions
           </p>
           <p className="mt-4 text-sm leading-relaxed text-primary-foreground/80">
-            Universidade de Santiago de Compostela · CISPAC · CRETUS · CESGA · CITIUS · Universidad de Oviedo · University of St Andrews · University of Aberdeen
+            <a
+              href="https://www.usc.gal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary-foreground underline underline-offset-2 transition-colors"
+            >
+              Universidade de Santiago de Compostela
+            </a>
+            {" · "}
+            <a
+              href="https://cispac.gal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary-foreground underline underline-offset-2 transition-colors"
+            >
+              CISPAC
+            </a>
+            {" · "}
+            <a
+              href="https://cretus.usc.es/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary-foreground underline underline-offset-2 transition-colors"
+            >
+              CRETUS
+            </a>
+            {" · "}
+            <a
+              href="https://www.cesga.es/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary-foreground underline underline-offset-2 transition-colors"
+            >
+              CESGA
+            </a>
+            {" · "}
+            <a
+              href="https://citius.gal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary-foreground underline underline-offset-2 transition-colors"
+            >
+              CITIUS
+            </a>
+            {" · "}
+            <a
+              href="https://www.uniovi.es/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary-foreground underline underline-offset-2 transition-colors"
+            >
+              Universidad de Oviedo
+            </a>
+            {" · "}
+            <a
+              href="https://www.st-andrews.ac.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary-foreground underline underline-offset-2 transition-colors"
+            >
+              University of St Andrews
+            </a>
+            {" · "}
+            <a
+              href="https://www.abdn.ac.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary-foreground underline underline-offset-2 transition-colors"
+            >
+              University of Aberdeen
+            </a>
           </p>
           <div className="mt-4 flex flex-col gap-2">
             <a
@@ -155,6 +225,15 @@ export function Footer() {
               className="underline hover:text-primary-foreground"
             >
               CISPAC
+            </a>
+            . Built with{" "}
+            <a
+              href="https://lovable.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary-foreground"
+            >
+              Lovable
             </a>
             .
           </div>
