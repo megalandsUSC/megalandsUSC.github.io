@@ -9,7 +9,7 @@ export const Route = createFileRoute("/methodology")({
       {
         name: "description",
         content:
-          "MegaLands' transdisciplinary methodology and study areas: Serra da Capelada, Serra do Leboreiro, Costa da Morte, Xistral Mountains and Penausén-Idarga.",
+          "MegaLands' transdisciplinary methodology and study areas: Serra da Capelada, Serra do Leboreiro, Costa da Morte, Xistral Mountains and Penausén.",
       },
       { property: "og:title", content: "Methodology — MegaLands" },
       {
@@ -54,13 +54,13 @@ const areas: Area[] = [
     text: "The Xistral mountains represent an absolute hotspot in terms of palaeoenvironmental knowledge. The extent and age of their peatlands (some covering the whole Holocene period) favoured the intense palaeoenvironmental work that has been undertaken in the area since the late 1990s, both from a geochemical and a palynological perspective (e.g., Martínez-Cortizas et al. 2002; Mighall et al. 2006, 2023).",
   },
   {
-    name: "Penausén-Idarga Sierras",
+    name: "Penausén",
     text: "The Necropolis of Penausén-Calabazos is composed of a total of eleven monuments (Rodríguez del Cueto, Carrero Pazos 2021).",
     image: {
       src: "/images/Penausen_M1_dolmen.jpeg",
       alt: "Penausén M1 dolmen during the excavations",
       caption:
-        "Pensausén M1 dolmen (Salas, Asturias) during the excavations, September 2026. Photograph by Team members.",
+        "Penausén M1 dolmen (Salas, Asturias) during archaeological excavations, September 2026. Photograph by Team members.",
     },
   },
 ];
