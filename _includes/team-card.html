@@ -1,0 +1,28 @@
+{% comment %}
+    Team member card include
+    Options:
+    - "img"       = filename of photo in /images/ folder
+    - "name"      = full name of the team member
+    - "role"      = short role label, e.g. "PI 1", "RT 2"
+    - "affil"     = affiliation text
+    - "url"       = ORCID or profile URL (optional)
+{% endcomment %}
+<div class="team-card">
+    <div class="team-card__photo-wrap">
+        <img
+            src="{{ include.img | prepend: '/images/' | relative_url }}"
+            alt="Photo of {{ include.name }}"
+            loading="lazy"
+            decoding="async"
+            class="team-card__photo">
+    </div>
+    <div class="team-card__body">
+        <span class="team-card__role">{{ include.role }}</span>
+        {% if include.url %}
+        <a class="team-card__name" href="{{ include.url }}" target="_blank" rel="noopener noreferrer">{{ include.name }}</a>
+        {% else %}
+        <span class="team-card__name">{{ include.name }}</span>
+        {% endif %}
+        <span class="team-card__affil">{{ include.affil }}</span>
+    </div>
+</div>
