@@ -89,7 +89,7 @@ function WorkPackages() {
       <section className="mx-auto max-w-6xl px-6 py-16">
         <figure>
           <img
-            src="https://megalandsusc.github.io/images/wps_diagram_clean.jpg"
+            src="/images/wps_diagram_clean.jpg"
             alt="MegaLands Work Packages diagram"
             loading="lazy"
             className="w-full rounded-2xl border border-border bg-card shadow-sm"

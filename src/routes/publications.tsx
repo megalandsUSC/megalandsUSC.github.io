@@ -32,7 +32,7 @@ type Pub = {
 
 const conferences: Pub[] = [
   {
-    img: "https://megalandsusc.github.io/images/cad_2025.jpg",
+    img: "/images/cad_2025.jpg",
     imgAlt: "CAD 2025",
     link: "https://www.researchgate.net/publication/403758545_Arqueoloxia_dende_o_ceo_A_tecnoloxia_LIDAR_no_estudo_do_Megalitismo_galego",
     citation: (
@@ -50,7 +50,7 @@ const conferences: Pub[] = [
 
 const articles: Pub[] = [
   {
-    img: "https://megalandsusc.github.io/images/jas_reports.jpg",
+    img: "/images/jas_reports.jpg",
     imgAlt: "Journal of Archaeological Science: Reports",
     link: "https://www.sciencedirect.com/science/article/pii/S2352409X26001653",
     citation: (
@@ -71,7 +71,7 @@ const articles: Pub[] = [
 
 const chapters: Pub[] = [
   {
-    img: "https://megalandsusc.github.io/images/megalithic_societies.jpg",
+    img: "/images/megalithic_societies.jpg",
     imgAlt: "Megalithic societies. Old questions, new narratives",
     link: "https://www.archaeopress.com/Archaeopress/Products/9781805830764",
     citation: (
@@ -88,7 +88,7 @@ const chapters: Pub[] = [
     ),
   },
   {
-    img: "https://megalandsusc.github.io/images/el_afan_de_eternidad.jpg",
+    img: "/images/el_afan_de_eternidad.jpg",
     imgAlt: "El afán de eternidad de las sociedades neolíticas",
     link: "https://dialnet.unirioja.es/servlet/articulo?codigo=10767357",
     citation: (
@@ -113,7 +113,7 @@ const chapters: Pub[] = [
 
 const press: Pub[] = [
   {
-    img: "https://megalandsusc.github.io/images/desperta_ferro_56.jpg",
+    img: "/images/desperta_ferro_56.jpg",
     imgAlt: "Revista Despertaferro Arqueología & Historia nº 56",
     link: "https://investigacion.usc.es/documentos/69d6a4b3a94fcb220764979f?lang=es",
     citation: (

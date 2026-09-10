@@ -79,7 +79,7 @@ function Methodology() {
       <section className="mx-auto max-w-6xl px-6 py-16">
         <figure>
           <img
-            src="https://megalandsusc.github.io/images/Rationale%20of%20Megalands%20-%20Methodology.jpeg"
+            src="/images/Rationale%20of%20Megalands%20-%20Methodology.jpeg"
             alt="Diagram of the relation between Specific Objectives and the rationale of MegaLands working plan"
             loading="lazy"
             className="w-full rounded-2xl border border-border bg-card shadow-sm"
@@ -135,7 +135,7 @@ function Methodology() {
           </div>
           <figure className="mt-12">
             <img
-              src="https://megalandsusc.github.io/images/Study_areasMegaLands.jpeg"
+              src="/images/Study_areasMegaLands.jpeg"
               alt="Study areas with selected sites for the MegaLands project"
               loading="lazy"
               className="w-full rounded-2xl border border-border bg-card shadow-sm"

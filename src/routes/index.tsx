@@ -88,7 +88,7 @@ function Index() {
         <div className="absolute inset-0 bg-gradient-to-t from-stone-deep/90 via-stone-deep/40 to-stone-deep/20" />
         <div className="relative mx-auto flex max-w-6xl flex-col justify-end px-6 pb-20 pt-40 md:pb-28 md:pt-56">
           <p className="animate-rise text-xs font-semibold uppercase tracking-[0.3em] text-primary-foreground/80">
-            Knowledge-Generation Project · PID Type A
+            Knowledge-Generation Project · PID2024-156264NA-I00 (AEI / MICIU / FEDER, EU)
           </p>
           <h1 className="animate-rise-slow mt-5 max-w-4xl font-display text-5xl leading-[1.05] text-primary-foreground md:text-7xl">
             Megalithic Landscapes of Northwestern Iberia
@@ -125,7 +125,7 @@ function Index() {
             Understanding megalithic societies, from stone to soil
           </h2>
           <img
-            src="https://megalandsusc.github.io/images/pedra_arca.jpg"
+            src="/images/pedra_arca.jpg"
             alt="Pedra da Arca megalithic monument"
             loading="lazy"
             className="mt-8 aspect-[4/3] w-full rounded-2xl object-cover shadow-lg"
@@ -134,13 +134,14 @@ function Index() {
         <div className="flex flex-col justify-center gap-5 text-lg leading-relaxed text-muted-foreground">
           <p>
             MegaLands is a Knowledge-Generation Project, Non-Oriented Modality
-            (Type A), led by two Principal Investigators —{" "}
+            (Type A) [PID2024-156264NA-I00], funded by the Agencia Estatal de Investigación
+            (AEI / MICIU / 10.13039/501100011033 / FEDER, EU), led by two Principal Investigators —{" "}
             <span className="font-semibold text-foreground">
-              Miguel Carrero-Pazos (USC)
+              Miguel Carrero-Pazos (USC / CISPAC)
             </span>{" "}
             and{" "}
             <span className="font-semibold text-foreground">
-              Noemí Silva-Sánchez (USC)
+              Noemí Silva-Sánchez (USC / CRETUS)
             </span>{" "}
             — and supported by a multidisciplinary team.
           </p>
@@ -259,7 +260,7 @@ function Index() {
           className="group mt-8 flex flex-col gap-8 rounded-3xl border border-border bg-card p-8 shadow-sm transition-shadow hover:shadow-lg md:flex-row md:items-center md:p-12"
         >
           <img
-            src="https://megalandsusc.github.io/images/discover/Logo-Def.jpg"
+            src="/images/discover/Logo-Def.jpg"
             alt="DISCOVER project logo"
             loading="lazy"
             className="w-full max-w-[220px] rounded-xl object-contain"
