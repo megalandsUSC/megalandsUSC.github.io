@@ -18,31 +18,108 @@ MegaLands aims to increase the generation of high-quality scientific knowledge, 
 
 ## Objectives
 
-To increase our understanding of the megalithic societies in Northwestern Iberia through a holistic approach, considering both their social and environmental dimensions.
+<div class="objectives-lead-card">
+  <p><strong>Main Objective:</strong> To increase our understanding of the megalithic societies in Northwestern Iberia through a holistic approach, considering both their social and environmental dimensions.</p>
+</div>
 
-**SO1.** To refine available spatial data of NW Iberian megaliths through artificial intelligence.
+<div class="objectives-grid">
 
-**SO2.** To contribute to fill the available gaps in the chronological knowledge about the megalithic phenomenon in NW Iberia, providing new detailed, more refined chronometric datasets in comparative regions.
+  <div class="objective-card objective-card--so1">
+    <div class="objective-card__header">
+      <span class="objective-card__badge">SO1</span>
+      <h3 class="objective-card__title">Spatial Data &amp; AI</h3>
+    </div>
+    <p class="objective-card__text">
+      To refine available spatial data of NW Iberian megaliths through artificial intelligence.
+    </p>
+  </div>
 
-**SO3.** To reconstruct the environmental conditions and subsistence practices (agriculture, livestock, burning, etc.) of megalithic landscapes through a combination of a multiproxy (geochemistry and palynology) and using a multiscale (on-site and off-site) approach.
+  <div class="objective-card objective-card--so2">
+    <div class="objective-card__header">
+      <span class="objective-card__badge">SO2</span>
+      <h3 class="objective-card__title">Chronological Knowledge</h3>
+    </div>
+    <p class="objective-card__text">
+      To contribute to fill the available gaps in the chronological knowledge about the megalithic phenomenon in NW Iberia, providing new detailed, more refined chronometric datasets in comparative regions.
+    </p>
+  </div>
 
-**SO4.** To generate comparative models of the distribution of megalithic tombs in the Iberian Northwest, identifying regional location patterns and assessing their correspondence with environmental and geographical factors.
+  <div class="objective-card objective-card--so3">
+    <div class="objective-card__header">
+      <span class="objective-card__badge">SO3</span>
+      <h3 class="objective-card__title">Environmental &amp; Subsistence</h3>
+    </div>
+    <p class="objective-card__text">
+      To reconstruct the environmental conditions and subsistence practices (agriculture, livestock, burning, etc.) of megalithic landscapes through a combination of a multiproxy (geochemistry and palynology) and using a multiscale (on-site and off-site) approach.
+    </p>
+  </div>
+
+  <div class="objective-card objective-card--so4">
+    <div class="objective-card__header">
+      <span class="objective-card__badge">SO4</span>
+      <h3 class="objective-card__title">Comparative Models</h3>
+    </div>
+    <p class="objective-card__text">
+      To generate comparative models of the distribution of megalithic tombs in the Iberian Northwest, identifying regional location patterns and assessing their correspondence with environmental and geographical factors.
+    </p>
+  </div>
+
+</div>
 
 
-## Starting hypothesis
-MegaLands arises from the starting hypothesis that the spatial distribution of NW Iberian megalithic monuments reflects deliberate landscape use and settlement strategies influenced by environmental and ecological factors, including periods of environmental change.
+## Starting Hypothesis
 
-**a: Data quality and cataloguing:** Existing archaeological records require updating to address inaccuracies, duplication, and inconsistent documentation.
+<div class="hypothesis-highlight-card">
+  <div class="hypothesis-highlight-card__title">Core Hypothesis</div>
+  <p>
+    MegaLands arises from the starting hypothesis that the spatial distribution of NW Iberian megalithic monuments reflects <strong>deliberate landscape use and settlement strategies</strong> influenced by environmental and ecological factors, including periods of environmental change.
+  </p>
+</div>
 
-**b: Chronological gaps:** The 103 radiocarbon dates from 56 NW Iberian monuments are insufficient to establish a robust timeline, necessitating new dating programs.
+<div class="pillars-grid">
 
-**c: Palaeoenvironmental data representativity:** Most of available palaeoenvironmental information comes from the highlands, so increasing data availability in the lowlands will allow a better understanding of the megalithic phenomenon diversity within NW Iberia.
+  <div class="pillar-card">
+    <span class="pillar-card__letter">a</span>
+    <h3 class="pillar-card__title">Data Quality &amp; Cataloguing</h3>
+    <p class="pillar-card__text">
+      Existing archaeological records require updating to address inaccuracies, duplication, and inconsistent documentation.
+    </p>
+  </div>
 
-**d: Data integration:** Spatial models of megalithic monuments published up-to-date focus on geographical trends, but no effort has been made to integrate palaeoenvironmental data.
+  <div class="pillar-card">
+    <span class="pillar-card__letter">b</span>
+    <h3 class="pillar-card__title">Chronological Gaps</h3>
+    <p class="pillar-card__text">
+      The 103 radiocarbon dates from 56 NW Iberian monuments are insufficient to establish a robust timeline, necessitating new dating programs.
+    </p>
+  </div>
 
-MegaLands builds on the above-described state of the art by integrating spatial, environmental and new chronometric data, to provide a revised understanding of the NW Iberian megalithic complex.
+  <div class="pillar-card">
+    <span class="pillar-card__letter">c</span>
+    <h3 class="pillar-card__title">Palaeoenvironmental Representativity</h3>
+    <p class="pillar-card__text">
+      Most available palaeoenvironmental information comes from the highlands; increasing data availability in the lowlands will allow a better understanding of diversity within NW Iberia.
+    </p>
+  </div>
 
-Moving beyond traditional descriptive approaches, it aligns with calls for holistic studies that integrate human agency and environmental changes. By addressing whether ecological and climatic changes influenced megalithic monument construction, the project avoids deterministic frameworks, proposing nuanced explanations of human-environment dynamics.
+  <div class="pillar-card">
+    <span class="pillar-card__letter">d</span>
+    <h3 class="pillar-card__title">Data Integration</h3>
+    <p class="pillar-card__text">
+      Spatial models published up-to-date focus on geographical trends, but no effort has been made to integrate palaeoenvironmental data.
+    </p>
+  </div>
+
+</div>
+
+<div class="hypothesis-conclusion-card">
+  <p>
+    <strong>MegaLands builds on the state of the art</strong> by integrating spatial, environmental and new chronometric data to provide a revised understanding of the NW Iberian megalithic complex.
+  </p>
+  <p>
+    Moving beyond traditional descriptive approaches, it aligns with calls for holistic studies that integrate human agency and environmental changes, avoiding deterministic frameworks and proposing nuanced explanations of human-environment dynamics.
+  </p>
+</div>
 
 {% include toc.html %}
 
