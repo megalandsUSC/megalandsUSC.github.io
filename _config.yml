@@ -23,7 +23,7 @@ author: Miguel Carrero & Noemí Silva
 # year or date published
 pub_year: 2026
 # location of code, the full url to your github repository
-source-code: https://github.com/megalandsUSC/megalandsweb
+source-code: https://github.com/megalandsUSC/megalandsUSC.github.io
 github_username: megalandsUSC
 # Funding information
 funding: PID2024-156264NA-I00 funded by MICIU / AEI / 10.13039/501100011033 / FEDER, EU.
@@ -38,7 +38,8 @@ funding: PID2024-156264NA-I00 funded by MICIU / AEI / 10.13039/501100011033 / FE
 url: https://megalandsUSC.github.io
 # use baseurl to add subsection of the domain, e.g. /megalands
 # on gh-pages this is a / followed by the name of the repository
-baseurl: /megalandsweb
+# For user/organization main sites (username.github.io), baseurl is empty: ""
+baseurl: ""
 
 
 ##########
