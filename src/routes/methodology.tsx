@@ -46,7 +46,7 @@ const areas: Area[] = [
       src: "/images/Cabaleiros_Dolmen.jpeg",
       alt: "The dolmen of Cabaleiros during archaeological excavations",
       caption:
-        "The dolmen of Cabaleiros (Tordoia) during archaeological excavations during september 2026. Photograph by Team members.",
+        "The dolmen of Cabaleiros (Tordoia) during archaeological excavations. September 2026",
     },
   },
   {

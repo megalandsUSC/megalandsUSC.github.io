@@ -1,0 +1,40 @@
+---
+---
+// ─── Brand Palette ────────────────────────────────────────────────────────────
+// Primary: deep slate navy — authoritative, institutional
+// Accent:  warm terracotta — archaeological warmth
+$brand-primary: #1e3a5f; // deep navy
+$brand-accent: #b5522b; // terracotta / ochre
+$brand-light: #f5f1eb; // warm ivory background
+$brand-dark: #111827; // near-black for footer
+$brand-muted: #6b7280; // neutral muted text
+
+// ─── Template Variables ──────────────────────────────────────────────────────
+$top-border: $brand-accent;
+$nav-pills: $brand-primary;
+$text-color: #1a1a2e !default;
+$link-color: $brand-accent !default;
+$base-font-size: 1.05rem;
+$container-max: 820px;
+
+// ─── Font Stack ──────────────────────────────────────────────────────────────
+@font-face {
+  font-family: 'Noto Sans';
+  src: local('Noto Sans Regular'),
+  url('{{ "/assets/css/fonts/notosans-regular-webfont.woff" | relative_url }}') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: local('Source Code Pro'),
+  url('{{ "/assets/css/fonts/sourcecodepro-regular-webfont.woff" | relative_url }}') format('woff');
+  font-display: swap;
+}
+
+// Inter as primary UI font (loaded via <head> Google Fonts); Noto Sans as fallback
+$base-font-family: 'Inter', 'Noto Sans', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$code-font-family: 'Source Code Pro', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+// Import partials.
+@import "template", "custom";
