@@ -4,7 +4,7 @@
 
 > The MegaLands Project webpage
 
-<https://megalandsUSC.github.io/>
+<https://megalandsUSC.github.io/megalandsweb/>
 
 #### Credits
 - PID2024-156264NA-I00 funded by MICIU / AEI / 10.13039/501100011033 / FEDER, EU.
