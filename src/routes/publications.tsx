@@ -136,17 +136,21 @@ function PubCard({ pub }: { pub: Pub }) {
       href={pub.link}
       target="_blank"
       rel="noreferrer"
-      className="group flex gap-6 rounded-2xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+      className="group flex gap-4 sm:gap-6 rounded-2xl border border-border bg-card p-4 sm:p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md hover:border-ochre/40"
     >
       {pub.img && (
-        <img
-          src={pub.img}
-          alt={pub.imgAlt ?? ""}
-          loading="lazy"
-          className="hidden w-24 shrink-0 rounded-xl object-cover sm:block"
-        />
+        <div className="w-16 sm:w-24 shrink-0 overflow-hidden rounded-lg sm:rounded-xl border border-border/70 bg-secondary/40 shadow-xs self-start">
+          <img
+            src={pub.img}
+            alt={pub.imgAlt ?? ""}
+            loading="lazy"
+            className="w-full h-auto aspect-[3/4] object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+        </div>
       )}
-      <p className="leading-relaxed text-muted-foreground">{pub.citation}</p>
+      <p className="text-sm sm:text-base leading-relaxed text-muted-foreground self-center">
+        {pub.citation}
+      </p>
     </a>
   );
 }
