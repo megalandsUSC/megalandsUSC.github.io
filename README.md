@@ -8,4 +8,4 @@
 
 #### Credits
 - PID2024-156264NA-I00 funded by MICIU / AEI / 10.13039/501100011033 / FEDER, EU.
-- Website created from the “workshop-template-b” template by evanwill, built using Jekyll on GitHub Pages.
+- Website created with Lovable.
